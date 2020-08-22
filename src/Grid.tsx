@@ -62,7 +62,7 @@ const Grid: React.FC<GridProps> = (props)=> {
       {numMapCol[value as Label] && <span className="grid-txt" style={{color: numMapCol[value as Label]}}>{value}</span>}
       {
        rayimgVisible &&
-        <img className="ray-img" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=672010677,331246598&fm=26&gp=0.jpg" />
+        <img className="ray-img" src="saolei.jpg" />
       }
       {
         flagVisible &&
