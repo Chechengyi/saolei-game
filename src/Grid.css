@@ -1,0 +1,32 @@
+.grid {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  cursor: pointer;
+  background-color: #f0f0f4;
+;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.grid-txt {
+  font-weight: bold;
+}
+.ray-img {
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+.flag-img {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  display: block;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
